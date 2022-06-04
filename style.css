@@ -1,0 +1,108 @@
+
+html {
+    background-color: aquamarine;
+}
+.motivation{
+    display: flex; /*Основной контент ну вообще всё становится как я понял не зафиксированным,*/
+    justify-content: center; /*Основная оцентровка*/
+    height: 50px; /*высота разделения от верха)))...*/
+    font-size: 20px;
+}
+h1 {
+    display: flex; /*Основной контент ну вообще всё становится как я понял не зафиксированным,*/
+    justify-content: center; /*Основная оцентровка*/
+    height: 50px; /*высота разделения от верха)))...*/
+}
+
+
+.flex-wrapper {
+   
+    display: flex; /*Основной контент ну вообще всё становится как я понял не зафиксированным,*/
+    align-items: center; /*контента рамка обтекает контент и поцентру выставляет..*/
+    justify-content: center; /*Основная оцентровка*/
+    width: 100%;
+    flex-flow: column;
+    
+}
+
+.add-todo-wrapper {
+    
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border: 1px black solid;
+}
+
+.button-wrapper {
+    display: flex;
+    
+   
+    
+}
+
+
+.input-wrapper input {
+    
+    width: 380px;   
+    
+}
+.input-wrapper {
+    width: 80%;
+    
+}
+
+.todo-item{
+    margin: 10px;
+     display:flex;
+     border: 1px black solid;
+     width: 1000px;
+     justify-content: space-between;
+    background-color: yellow;
+    
+}
+
+.description{
+
+    margin: 10px;
+}
+
+.btnDelete{
+    
+    margin: 10px;
+}
+
+.btnComplete{
+    display: flex;
+    margin-top: 15px;
+   
+}
+.buttons{
+    display: flex;
+ 
+
+}
+
+.checked{
+    opacity: 0.5;
+    
+}
+
+.testCss{
+    font-size: 100px;
+}
+
+.delition{
+    animation: opacity 1s ease-in-out;
+}
+
+@keyframes opacity{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
